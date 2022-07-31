@@ -25,6 +25,10 @@ footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.logoPan {
+    width:50px;
+}
+
 header {
     position: relative;
     padding: 10px;

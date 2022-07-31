@@ -1,4 +1,6 @@
-import React from 'react'
+import React from "react";
+import logo from "../assets/logo.svg";
+import {ReactComponent as LogoWhiteIcon} from "../assets/logoWhite.svg";
 
 const Header = () => {
   return (
@@ -8,6 +10,8 @@ const Header = () => {
         <a className="home" href="#">
           GamesPlay
         </a>
+        {/* <img src={logoWhite} alt="" width="100px"/> */}
+        <LogoWhiteIcon className="logoPan"/>
       </h1>
       <nav>
         <a href="#">All games</a>
@@ -23,7 +27,7 @@ const Header = () => {
         </div>
       </nav>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
